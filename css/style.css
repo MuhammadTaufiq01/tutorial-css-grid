@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.kiri-atas{
+    float: left;
+    background-color: aquamarine;
+    font-family: fantasy;
+}
+.kiri-atas p{
+ font-family: sans-serif;
+}
+.kanan-atas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background-color: cornflowerblue;
+    padding: 5px;
+    float: right;
+}
+.kanan-atas ul li {
+    background-color: cornsilk;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.kiri-bawah {
+    position: fixed;
+    top: 85%;
+    margin: 15px;
+    width: 20%;
+    background-color: chartreuse;
+}
+.kanan-bawah{
+    position: fixed;
+    top: 90%;
+    left: 77%;
+    background-color: #6200ff;
+}
+.kanan-bawah h1 {
+    font-family: Bangers;
+}
